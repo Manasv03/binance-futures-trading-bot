@@ -36,13 +36,13 @@ The bot supports both **MARKET** and **LIMIT** orders for USDT-margined pairs.
 ### Examples:
 
 #### 1. Market BUY order
-Place a market order to buy 0.001 BTC:
+Place a market order to buy 0.002 BTC:
 ```bash
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
 ```
 
 #### 2. Limit SELL order
-Place a limit order to sell 0.001 BTC at 80,000 USDT:
+Place a limit order to sell 0.002 BTC at 80,000 USDT:
 ```bash
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 80000
 ```
